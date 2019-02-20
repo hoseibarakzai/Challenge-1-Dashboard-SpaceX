@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		 <script type="text/javascript" src="scripts/main.js"></script><meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="styles/main.css" rel="stylesheet"/>
+		<link type="text/css" href="styles/chartsopmaak.css" rel="stylesheet"/>
+	</head>
+	<body>
+		 <div class="infocontainer">
+			<header>
+				<img class="logo" src="images/logo.png" alt="logo van spacex">
+				<h2>Dashboard</h2>
+			</header>
+			<div class="item1">
+				<div class="kopje1">
+					<h2>Voedsel</h2>
+				</div>
+				<div class="inhoud1">
+	        <canvas id="myPieChart" class="pie"></canvas>
+	      </div>
+	      </div>
+
+	      <div class="item2">
+	      	<div class="kopje2">
+	        <h2>Snelheid</h2>
+	      </div>
+	      <div class="inhoud2">
+	        <canvas id="myChart2"></canvas>
+	      	</div>
+	      </div>
+
+	     	<div class="item3">
+		      <div class="kopje3">
+		        <h2> Afstand afgelegd over tijd </h2>
+		      </div>
+
+		      <div class="inhoud3">
+	        	<canvas id="myChart3"></canvas>
+	      	  </div>
+		 	</div>
+		 </div>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+	  <script type="text/javascript" src="Script/pie.js"></script>
+	  <script type="text/javascript" src="Script/speed.js"></script>
+	  <script type="text/javascript" src="Script/afstand.js"></script>
+
+
+	</body>
+</html>

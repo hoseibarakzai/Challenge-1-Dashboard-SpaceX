@@ -1,0 +1,15 @@
+.pie {
+  height: 500px;
+}
+
+body {
+  font-family: arial;
+}
+a, a:visited {
+  color: white
+}
+hr {
+  height: 1px;
+  border: 0;
+  background: black;
+}
